@@ -1,0 +1,10 @@
+.nav {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+.navPosition {
+    display: inline;
+    text-align: left;
+}

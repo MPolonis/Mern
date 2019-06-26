@@ -60,7 +60,7 @@
     {
       "name": "arrow-functional-m",
       "description": "Generates a functional react component in a module directory",
-      "usage": "functional-m <module-name>/<component-name>",
+      "usage": "arrow-functional-m <module-name>/<component-name>",
       "files": [
         {
           "blueprint-path": "config/blueprints/arrow-functional-component.ejs",
