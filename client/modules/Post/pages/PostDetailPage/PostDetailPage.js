@@ -59,7 +59,7 @@ export class PostDetailPage extends React.Component {
     return (
       <div>
         <Helmet title={props.post.title} />
-        <a className={styles['edit-post-button']} href="#" onClick={this.props.toggleEditPost}>FormattedMessage id="editPost"</a>
+        <a className={styles['edit-post-button']} href="#" onClick={this.props.toggleEditPost}>Edit</a>
         {
           this.props.showEditPost ? this.renderPostForm() : this.renderPost()
         }
