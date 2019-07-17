@@ -60,7 +60,7 @@ export function editPost(cuid, post) {
 
 export function editPostRequest(cuid, post) {
   return (dispatch) => {
-    return callApi('posts/${cuid}', 'put', {
+    return callApi(`posts/${cuid}`, 'put', {
       post: {
         name: post.name,
         title: post.title,
@@ -81,7 +81,7 @@ export function thumbUpComment(cuid, post) {
 
 export function thumbUpCommentRequest(cuid, post) {
   return (dispatch) => {
-    return callApi('posts/${cuid}', 'put', {
+    return callApi(`posts/${cuid}`, 'put', {
       post: {
         name: post.name,
         title: post.title,
@@ -102,7 +102,7 @@ export function thumbDownComment(cuid, post) {
 
 export function thumbDownCommentRequest(cuid, post) {
   return (dispatch) => {
-    return callApi('posts/${cuid}', 'put', {
+    return callApi(`posts/${cuid}`, 'put', {
       post: {
         name: post.name,
         title: post.title,
